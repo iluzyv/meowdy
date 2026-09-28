@@ -16,3 +16,10 @@ h1{font:clamp(76px,9vw,132px)/.95 Rye,serif;margin:29px 0 23px;color:var(--cream
 footer{border-top:1px solid var(--line);padding:30px 3.7%;display:flex;justify-content:space-between;font-size:12px;font-weight:800;letter-spacing:2px;color:#cfc8b5}
 @media(max-width:850px){header{height:75px}.logo{font-size:24px}nav a:first-child{display:none}.pill{padding:11px 15px}.hero{grid-template-columns:1fr;padding-top:30px;gap:25px}.copy{padding-top:20px;text-align:center}.kicker{justify-content:center}h1{font-size:76px}.tag{font-size:18px}.actions{justify-content:center}.portrait-wrap{min-height:480px}.story{grid-template-columns:1fr;gap:15px;text-align:center}.story p{margin:auto}.story h2{font-size:38px}}
 @media(max-width:480px){.hero{padding-left:20px;padding-right:20px}.actions{flex-direction:column}.portrait{width:92%}.stamp{width:105px;height:105px;right:-2%;bottom:6%}.stamp b{font-size:14px}.stamp span{font-size:10px}footer{flex-direction:column;gap:10px;text-align:center}}
+
+.actions .action{height:57px;padding:0 26px;border-radius:5px;font:700 15px Inter;display:inline-flex;align-items:center;justify-content:center;text-decoration:none}
+.ca-row{display:flex;align-items:center;gap:10px;margin-top:17px;max-width:560px}
+.ca-row code{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:11px;color:#cfc8b5;border:1px solid var(--line);padding:11px 12px;border-radius:4px;flex:1}
+.ca-row button{background:transparent;color:var(--cream);border:1px solid #d5b64e;border-radius:4px;padding:10px 13px;font-weight:800;cursor:pointer}
+.social{margin-top:12px}.social a{color:var(--cream);font-size:12px;font-weight:800;text-decoration:none}
+@media(max-width:850px){.ca-row{margin-left:auto;margin-right:auto}.actions .action{width:auto}}
