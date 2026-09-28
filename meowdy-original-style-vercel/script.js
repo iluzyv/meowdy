@@ -1,1 +1,0 @@
-document.querySelectorAll('.placeholder').forEach(b=>b.addEventListener('click',()=>alert('Link coming soon.')));
